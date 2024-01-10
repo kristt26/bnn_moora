@@ -24,7 +24,7 @@
                                     <td>{{$index+1}}</td>
                                     <td>{{item.nama}}</td>
                                     <td>{{item.preferensi}}</td>
-                                    <td>{{item.preferensi>=0.2 ? 'Wajib Rehabilitas' : 'Tidak Wajib Rehabilitas'}}</td>
+                                    <td>{{item.preferensi>=0.15 ? 'Wajib Rehabilitas' : 'Tidak Wajib Rehabilitas'}}</td>
                                 </tr>
                             </tbody>
                         </table>
